@@ -1,17 +1,30 @@
 package homerentws.com.entity;
 
-public enum Role {
-    ADMIN(1),
-    USER(2),
-    ADMINISTRATOR(3);
+import homerentws.com.enums.userRole;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-    private int id;
+import java.util.List;
 
-    Role(int id) {
-        this.id = id;
-    }
+@Getter
+@Setter
+@Entity
+@Table(name = "role")
+@AllArgsConstructor
+@NoArgsConstructor
+public class Role {
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private  int roleId;
 
-    public int getId() {
-        return id;
-    }
+  @Enumerated(EnumType.STRING)
+  private userRole userRole;
+
+  @ManyToMany(mappedBy="roles")
+  private List<User> users;
+
+
 }

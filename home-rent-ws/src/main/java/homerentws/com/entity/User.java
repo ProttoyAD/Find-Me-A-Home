@@ -12,12 +12,12 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "user_table", uniqueConstraints = @UniqueConstraint(columnNames = {"email" , "username","phone_number"}))
+@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = {"email" , "username","phone_number"}))
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+    @Column(name = "user_id")
     private UUID uuid;
 
     @Column(name = "first_name")
@@ -38,10 +38,14 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "roles")
-    private List<Role> roles;
-
     @Column(name="nid")
     private String nid;
+
+//    @ElementCollection(targetClass = Role.class)
+//    @CollectionTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"))
+//    @Column(name = "role")
+//    @Enumerated(EnumType.STRING)
+   @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.EAGER)
+    private List<Role> roles;
 
 }
