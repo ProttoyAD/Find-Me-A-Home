@@ -1,0 +1,96 @@
+2024-03-19T12:18:28.216+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Starting HomeRentWsApplication using Java 17.0.10 with PID 5604 (C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws\target\classes started by Ripon in C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws)
+2024-03-19T12:18:28.222+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T12:18:28.370+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19T12:18:28.374+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19T12:18:30.393+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19T12:18:30.424+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2024-03-19T12:18:31.311+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
+2024-03-19T12:18:31.355+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T12:18:31.356+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T12:18:31.415+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring embedded WebApplicationContext
+2024-03-19T12:18:31.416+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3039 ms
+2024-03-19T12:18:31.792+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-19T12:18:31.896+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-19T12:18:31.938+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-19T12:18:32.364+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-19T12:18:32.394+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-19T12:18:32.704+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c15f6dc
+2024-03-19T12:18:32.708+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-19T12:18:32.890+06:00  WARN 5604 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-19T12:18:32.891+06:00  WARN 5604 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-19T12:18:33.370+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-19T12:18:33.375+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T12:18:33.482+06:00  WARN 5604 --- [home-rent-ws] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-19T12:18:34.424+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-19T12:18:34.432+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-19T12:18:34.524+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path '/home-rent-ws'
+2024-03-19T12:18:34.539+06:00  INFO 5604 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Started HomeRentWsApplication in 8.851 seconds (process running for 12.302)
+2024-03-19T12:18:34.944+06:00  INFO 5604 --- [home-rent-ws] [RMI TCP Connection(1)-192.168.0.45] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T12:18:34.945+06:00  INFO 5604 --- [home-rent-ws] [RMI TCP Connection(1)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T12:18:34.947+06:00  INFO 5604 --- [home-rent-ws] [RMI TCP Connection(1)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-19T12:46:48.292+06:00  INFO 5604 --- [home-rent-ws] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T12:46:48.325+06:00  INFO 5604 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-19T12:46:48.378+06:00  INFO 5604 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-19T12:46:58.720+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Starting HomeRentWsApplication using Java 17.0.10 with PID 1240 (C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws\target\classes started by Ripon in C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws)
+2024-03-19T12:46:58.723+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T12:46:58.773+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19T12:46:58.773+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19T12:46:59.891+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19T12:46:59.964+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-03-19T12:47:00.915+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
+2024-03-19T12:47:00.927+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T12:47:00.928+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T12:47:00.985+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring embedded WebApplicationContext
+2024-03-19T12:47:00.985+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2211 ms
+2024-03-19T12:47:01.413+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-19T12:47:01.540+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-19T12:47:01.619+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-19T12:47:02.017+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-19T12:47:02.050+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-19T12:47:02.627+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42c94fd9
+2024-03-19T12:47:02.629+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-19T12:47:02.704+06:00  WARN 1240 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-19T12:47:02.704+06:00  WARN 1240 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-19T12:47:03.933+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-19T12:47:06.233+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T12:47:06.309+06:00  WARN 1240 --- [home-rent-ws] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-19T12:47:07.604+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-19T12:47:07.612+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-19T12:47:07.733+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path '/home-rent-ws'
+2024-03-19T12:47:07.746+06:00  INFO 1240 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Started HomeRentWsApplication in 9.493 seconds (process running for 10.662)
+2024-03-19T12:47:07.992+06:00  INFO 1240 --- [home-rent-ws] [RMI TCP Connection(2)-192.168.0.45] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T12:47:07.992+06:00  INFO 1240 --- [home-rent-ws] [RMI TCP Connection(2)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T12:47:07.994+06:00  INFO 1240 --- [home-rent-ws] [RMI TCP Connection(2)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-19T12:50:12.083+06:00  INFO 1240 --- [home-rent-ws] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T12:50:12.091+06:00  INFO 1240 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-19T12:50:12.103+06:00  INFO 1240 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-19T12:50:16.960+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Starting HomeRentWsApplication using Java 17.0.10 with PID 7184 (C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws\target\classes started by Ripon in C:\Users\Ripon\Desktop\Prottoy Work Space\Find Me A Home\home-rent-ws)
+2024-03-19T12:50:16.964+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T12:50:17.029+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19T12:50:17.029+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19T12:50:18.317+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-19T12:50:18.367+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-03-19T12:50:19.038+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
+2024-03-19T12:50:19.048+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T12:50:19.049+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T12:50:19.097+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring embedded WebApplicationContext
+2024-03-19T12:50:19.098+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2068 ms
+2024-03-19T12:50:19.409+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-19T12:50:19.474+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-19T12:50:19.506+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-19T12:50:19.726+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-19T12:50:19.768+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-19T12:50:20.030+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47510e01
+2024-03-19T12:50:20.033+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-19T12:50:20.076+06:00  WARN 7184 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-19T12:50:20.077+06:00  WARN 7184 --- [home-rent-ws] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-19T12:50:20.939+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-19T12:50:22.560+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T12:50:22.657+06:00  WARN 7184 --- [home-rent-ws] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-19T12:50:23.602+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-19T12:50:23.611+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-19T12:50:23.686+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path '/home-rent-ws'
+2024-03-19T12:50:23.700+06:00  INFO 7184 --- [home-rent-ws] [restartedMain] homerentws.com.HomeRentWsApplication     : Started HomeRentWsApplication in 7.196 seconds (process running for 7.808)
+2024-03-19T12:50:24.247+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T12:50:24.248+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T12:50:24.256+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
