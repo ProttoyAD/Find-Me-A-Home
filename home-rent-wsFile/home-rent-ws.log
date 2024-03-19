@@ -94,3 +94,6 @@
 2024-03-19T12:50:24.247+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.a.c.c.C.[.[localhost].[/home-rent-ws]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-03-19T12:50:24.248+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-03-19T12:50:24.256+06:00  INFO 7184 --- [home-rent-ws] [RMI TCP Connection(3)-192.168.0.45] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-03-19T13:51:00.702+06:00  INFO 7184 --- [home-rent-ws] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-19T13:51:00.769+06:00  INFO 7184 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-19T13:51:00.774+06:00  INFO 7184 --- [home-rent-ws] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
